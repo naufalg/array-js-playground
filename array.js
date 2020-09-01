@@ -95,6 +95,7 @@ console.log(sameValue2(subj1, subj2));
 
 // #### Jawaban ####
 let myTweet = [];
+let text;
 
 tweetMe = () => {
   myTweet.push(prompt("What's interesting?"));
@@ -102,6 +103,10 @@ tweetMe = () => {
 
 showTweet = (arr, idx) => {
   alert(arr[idx]);
+};
+
+showTweetAll = () => {
+  alert(myTweet);
 };
 
 // #### Soal ####
